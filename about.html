@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles/styles.css">
-   <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&amp;family=Poppins:wght@500;700&amp;display=swap"
       rel="stylesheet"
@@ -12,14 +17,50 @@
       src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-    <title>Project</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="desciption" content="About Weddeve as thier work" />
+
+    <title>About Weddeve</title>
   </head>
   <body cz-shortcut-listen="true">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <img
+          src="images/shecodes logo.png"
+          class="logo d-none d-md-block"
+          alt=""
+        />
+        <img
+          src="images/L9xk-logo-small.jpg"
+          class="logo d-block d-md-none"
+          alt=""
+        />
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="Aboutpage">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Workpage">Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contactpage">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container">
       <div class="row">
         <div class="col-lg-6">
@@ -39,6 +80,64 @@
           <img src="images/patricia.png" alt="" class="img-fluid" />
         </div>
       </div>
+    </div>
+    <div class="container">
+      <footer>
+        <div
+          class="contact-box d-flex justify-content-between md-5 d-none d-md-block"
+        >
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work together</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="contact Weddeve"
+            >
+              Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:tisetsomankgeru@gmail.com"
+            class="email-link"
+            title="Email Weddeve"
+          >
+            tisetsomankgeru@gmail.com
+          </a>
+        </div>
+
+        <div class="icon-links d-flex justify-content-center">
+          <a href="https:www.github.com/Weddeve" target="_blank" title="Github">
+            <i class="fa-brands fa-square-instagram"></i>
+          </a>
+          <a
+            href="https:www.instagram.com/Weddeve"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-square-github"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            target="_blank"
+            title="linkedin"
+            ><i class="fa-brands fa-square-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This Project was coded by Weddeve, and it is
+          <a
+            href="https://github.com/Weddeve/new-relost"
+            target="_blank"
+            title="Githubconnent"
+          ></a>
+          open sourced
+        </p>
+      </footer>
     </div>
   </body>
 </html>
